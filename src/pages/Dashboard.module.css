@@ -1,0 +1,39 @@
+/* styles/Dashboard.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .logoutButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logoutButton:hover {
+    background-color: #0056b3;
+  }
+  .container_reg{
+    border: 1px solid rgb(181, 181, 181);
+    width: 400px;
+    margin: auto;
+    align-self: center;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.inp{
+    width: 95%;
+}
